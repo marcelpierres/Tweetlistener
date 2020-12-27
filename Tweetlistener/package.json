@@ -1,0 +1,27 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "Tech Twitter Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/marcelpierres/twitter-bot.git"
+  },
+  "author": "Marcel Samuels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/marcelpierres/twitter-bot/issues"
+  },
+  "homepage": "https://gitlab.com/marcelpierres/twitter-bot",
+  "dependencies": {
+    "chance": "^1.0.18",
+    "newsapi": "^2.4.0",
+    "promise": "^8.0.2",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {}
+}
