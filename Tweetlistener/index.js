@@ -10,6 +10,8 @@ var Twit = require("twit");
 var config = require("./config.js");
 var T = new Twit(config);
 verify.verify();
+
+// when "@mpdsamuels" is in the twitter stream start the stream.on() method
 var stream = T.stream("statuses/filter", {
   track: "@mpdsamuels",
   language: "en",

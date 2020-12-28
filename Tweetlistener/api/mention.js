@@ -10,15 +10,13 @@ async function mention(event) {
   var params = {
     status: "Tweeted from API TEST",
   }; // this is the param variable which will have key and value
-var screenName =""+ event.user.screen_name+"";
-if (screenName ==="MarcelpierreS"){
-  onCommand(event)
-}else{
-  onMention(event);
+  var screenName = "" + event.user.screen_name + "";
+  if (screenName === "MarcelpierreS") {
+    onCommand(event);
+  } else {
+    onMention(event);
+  }
 }
-  
-}
-
 
 function onMention(eventMsg) {
   console.log("------Mention event------");

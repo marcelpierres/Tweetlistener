@@ -19,7 +19,10 @@
   "homepage": "https://gitlab.com/marcelpierres/twitter-bot",
   "dependencies": {
     "chance": "^1.0.18",
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.15",
     "newsapi": "^2.4.0",
+    "pg": "^8.5.1",
     "promise": "^8.0.2",
     "twit": "^2.2.11"
   },
