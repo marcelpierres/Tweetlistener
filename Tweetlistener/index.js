@@ -3,7 +3,7 @@ var newsparser = require("./utilities/newsparser");
 var news = require("./api/news");
 var post = require("./api/post");
 var verify = require("./api/verify");
-var follows = require("./api/follow");
+var mention = require("./api/mention");
 var database = require("./utilities/database");
 var fs = require("fs");
 var Twit = require("twit");
@@ -15,11 +15,11 @@ var stream = T.stream("statuses/filter", {
   language: "en",
 });
 
-stream.on("tweet", function followed(event) {
+stream.on("tweet", function mentioned(event) {
   // var name = event.user.name;
   //var screenName = event.user.screen_name;
   //console.log("I was mentioned by: " + name + " " + screenName);
-  follows.follow(event);
+  mention.mention(event);
   console.log(event);
 });
 
