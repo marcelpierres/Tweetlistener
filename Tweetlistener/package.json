@@ -24,6 +24,7 @@
     "newsapi": "^2.4.0",
     "pg": "^8.5.1",
     "promise": "^8.0.2",
+    "sqlite3": "^5.0.0",
     "twit": "^2.2.11"
   },
   "devDependencies": {}
