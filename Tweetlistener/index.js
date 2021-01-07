@@ -1,6 +1,6 @@
 require("dotenv").config(); // gives ability to use .env files
 var Promise = require("promise");
-var Subjects = require("./models/dbHelpers"); // ability to call on db helper methods
+//var Subjects = require("./models/dbHelpers"); // ability to call on db helper methods
 var newsparser = require("./utilities/newsparser");
 var news = require("./api/news");
 var post = require("./api/post");

@@ -18,6 +18,7 @@
   },
   "homepage": "https://gitlab.com/marcelpierres/twitter-bot",
   "dependencies": {
+    "axios": "^0.21.1",
     "chance": "^1.0.18",
     "dotenv": "^8.2.0",
     "knex": "^0.21.15",
